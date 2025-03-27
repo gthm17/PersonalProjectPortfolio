@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gidole&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+.navbar-logo{
+    width: 40px;
+}
+.banner-section{
+    background-image: url("https://res.cloudinary.com/dxvl4e75d/image/upload/v1739712723/70961524-ffa9-4344-b02f-fafe41a15941_nbsgyq.png");
+    background-size: cover;
+}
+.banner-caption{
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: Caveat;
+}
+.banner-heading{
+    color: aliceblue;
+    font-family: Bree Serif;
+}
+.banner-btn{
+    background-image: linear-gradient(to bottom, #0a1d5c, rgb(30, 30, 145));
+    color: aliceblue;
+    font-family: bree serif;
+    font-size: 14px;
+    height: 45px;
+    font-style: italic;
+    width: 130px;
+    border-width: 0px;
+    border-radius: 16px;
+    
+}
+.navbar-bg{
+    background-color: black !important;
+}
+.banner-img{
+    height: 100%;
+}
+.about-me{
+    background-color: black;
+}
+.aboutme-caption{
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: Gidole;
+    font-style: italic;
+    text-align: left;
+}
+b{
+    font-size: 17px;
+}
+.projects-section{
+    background-color: black;
+}
+.project-card{
+   background-image: linear-gradient(to bottom, #0a1d5c, rgb(30, 30, 145));
+    padding: 10px;
+    border-radius: 8px;
+    height: 40px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 8px;
+    font-family: Gidole;
+    font-style: italic; 
+}
+.modal-btn{
+    background-image: linear-gradient(to bottom, #0a1d5c, rgb(30, 30, 145));
+    color: aliceblue;
+    font-family: bree serif;
+    font-size: 12px;
+    height: 35px;
+    font-style: italic;
+    width: 45px;
+    border-width: 0px;
+    border-radius: 8px;
+}
+.modal-close{
+    background-image: linear-gradient(to bottom, #777a7a, rgb(131, 131, 136));
+    color: aliceblue;
+    font-family: bree serif;
+    font-size: 12px;
+    height: 35px;
+    font-style: italic;
+    width: 45px;
+    border-width: 0px;
+    border-radius: 8px;
+}
+.modal-title{
+    color: #0a1d5c !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.modal-caption{
+    color: #0a1d5c;
+    margin-top: 16px;
+    font-size: 16px;
+    font-family: Gidole;
+    font-style: italic;
+    text-align: left;
+}
+.activty-section{
+    background-color: black;
+}
+.activity-card{
+    background-image: linear-gradient(to bottom, #0a1d5c, rgb(30, 30, 145));
+    padding: 10px;
+    border-radius: 8px;
+    height: 610px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 8px;
+    font-family: Gidole;
+    font-style: italic;
+}
+.crsl-heading{
+    color: aliceblue;
+    font-family: Gidole;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+span{
+    color: #b1b3b3;
+    font-size: 14px;
+}
+.contact-section{
+    background-color: #000000;
+}
+.fu-icon{
+    margin: 10px;
+    width: 48px;
+    border-radius: 40px;
+    height: 48px;
+    background-image: radial-gradient( #0a1d5c, rgb(30, 30, 145));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon{
+    color: aliceblue;
+    font-size: 24px;
+  }
+  .footer{
+    background-image: radial-gradient( #0a1d5c, rgb(30, 30, 145));
+    font-family: Roboto;
+    color: #b1b3b3;
+  }
+  .copyright {
+    color: #5a7184;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 3px;
+}
+.icon-cpy{
+    color: #5a7184;
+    text-align: center;
+    font-size: 20px;
+    margin-top : 5px
+}
