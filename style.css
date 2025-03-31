@@ -16,18 +16,25 @@
     color: aliceblue;
     font-family: Bree Serif;
 }
-.banner-btn{
+.banner-btn {
     background-image: linear-gradient(to bottom, #0a1d5c, rgb(30, 30, 145));
     color: aliceblue;
-    font-family: bree serif;
+    font-family: "Bree Serif", serif;
     font-size: 14px;
     height: 45px;
     font-style: italic;
     width: 130px;
     border-width: 0px;
     border-radius: 16px;
-    
+    cursor: pointer;
+    transition: background-image 0.4s ease-in-out;
 }
+
+.banner-btn:hover,
+.banner-btn:active {
+    background-image: linear-gradient(to top, #0a1d5c, rgb(30, 30, 145));
+}
+
 .navbar-bg{
     background-color: black !important;
 }
