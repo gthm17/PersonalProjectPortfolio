@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gidole&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    scroll-padding-top: 70px;
+  }
+
+  
 .navbar-logo{
     width: 40px;
 }
@@ -27,12 +32,13 @@
     border-width: 0px;
     border-radius: 16px;
     cursor: pointer;
-    transition: background-image 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .banner-btn:hover,
 .banner-btn:active {
-    background-image: linear-gradient(to top, #0a1d5c, rgb(30, 30, 145));
+    background-color: #0056b3;
+    transform: scale(1.05);
 }
 
 .navbar-bg{
@@ -67,6 +73,13 @@ b{
     font-size: 8px;
     font-family: Gidole;
     font-style: italic; 
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.project-card:hover,
+.project-card:active{
+    background-color: #0056b3;
+    transform: scale(1.05);
 }
 .modal-btn{
     background-image: linear-gradient(to bottom, #0a1d5c, rgb(30, 30, 145));
@@ -78,6 +91,7 @@ b{
     width: 45px;
     border-width: 0px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .modal-close{
     background-image: linear-gradient(to bottom, #777a7a, rgb(131, 131, 136));
@@ -89,6 +103,7 @@ b{
     width: 45px;
     border-width: 0px;
     border-radius: 8px;
+    cursor: pointer;
 }
 .modal-title{
     color: #0a1d5c !important;
@@ -116,6 +131,7 @@ b{
     font-size: 8px;
     font-family: Gidole;
     font-style: italic;
+    
 }
 .crsl-heading{
     color: aliceblue;
@@ -140,7 +156,13 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.fu-icon:hover,
+.fu-icon:active{
+    transform: scale(1.15);
+}
   .icon{
     color: aliceblue;
     font-size: 24px;
